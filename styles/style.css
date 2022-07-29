@@ -1,7 +1,17 @@
-.default-text-color{
-    color: #777777;
-}
-
 .carousel-height{
     height: 720px;
+}
+
+@media screen and (max-width: 576px) {
+    
+    .carousel-head-font{
+        font-size: 10px;
+    }
+    .carousel-font{
+        font-size: 5px;
+    }
+    .carousel-text-height{
+        height: 200px;
+    }
+    
 }
